@@ -10,7 +10,7 @@ import UIKit
 
 class TableViewController: UITableViewController {
     
-    var viewModel: TableViewModelType?
+    var viewModel: TableViewViewModelType?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,9 +30,9 @@ class TableViewController: UITableViewController {
          
          var content = cell.defaultContentConfiguration()
          
-         if let profile = viewModel?.profiles[indexPath.row]  {
-             content.text = profile.name + " " + profile.secondName
-             content.secondaryText = "\(profile.age)"
+         if let cellViewModel = viewModel?.cellViewModel(forIndexPath: indexPath) {
+             content.text = cellViewModel.fullName
+             content.secondaryText = cellViewModel.age
          }
          
          cell.contentConfiguration = content
