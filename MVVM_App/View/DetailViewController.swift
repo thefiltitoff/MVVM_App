@@ -15,7 +15,8 @@ class DetailViewController: UIViewController {
     
     var viewModel: DetailViewModelType?
     
-    override func viewDidLoad() {
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         guard let viewModel = viewModel else { return }
         self.textLabel.text = viewModel.description
     }
