@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B546E1828650E810020B53F /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B546E1728650E810020B53F /* Box.swift */; };
 		2BA2406C286114DD00B02251 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA2406B286114DD00B02251 /* AppDelegate.swift */; };
 		2BA2406E286114DD00B02251 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA2406D286114DD00B02251 /* SceneDelegate.swift */; };
 		2BA24073286114DD00B02251 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BA24071286114DD00B02251 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B546E1728650E810020B53F /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
 		2BA24068286114DD00B02251 /* MVVM_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVM_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BA2406B286114DD00B02251 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BA2406D286114DD00B02251 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				2BA2406B286114DD00B02251 /* AppDelegate.swift */,
+				2B546E1728650E810020B53F /* Box.swift */,
 				2BA2406D286114DD00B02251 /* SceneDelegate.swift */,
 			);
 			path = "App Supporting files";
@@ -219,6 +222,7 @@
 				2BA240932862769200B02251 /* DetailViewModelType.swift in Sources */,
 				2BA2406C286114DD00B02251 /* AppDelegate.swift in Sources */,
 				2BA240822861173C00B02251 /* Profile.swift in Sources */,
+				2B546E1828650E810020B53F /* Box.swift in Sources */,
 				2BA240802861165000B02251 /* TableViewController.swift in Sources */,
 				2BA2406E286114DD00B02251 /* SceneDelegate.swift in Sources */,
 				2BA2408F2861F2D400B02251 /* TableViewCellViewModel.swift in Sources */,
