@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2B546E1828650E810020B53F /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B546E1728650E810020B53F /* Box.swift */; };
+		2B8E3A8228664C37000ED715 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8E3A8128664C37000ED715 /* NetworkManager.swift */; };
 		2BA2406C286114DD00B02251 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA2406B286114DD00B02251 /* AppDelegate.swift */; };
 		2BA2406E286114DD00B02251 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA2406D286114DD00B02251 /* SceneDelegate.swift */; };
 		2BA24073286114DD00B02251 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BA24071286114DD00B02251 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		2B546E1728650E810020B53F /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		2B8E3A8128664C37000ED715 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		2BA24068286114DD00B02251 /* MVVM_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVM_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BA2406B286114DD00B02251 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BA2406D286114DD00B02251 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +59,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B8E3A8028664AC1000ED715 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2B8E3A8128664C37000ED715 /* NetworkManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		2BA2405F286114DD00B02251 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +88,7 @@
 			children = (
 				2BA2408B2861EB1C00B02251 /* App Supporting files */,
 				2BA240882861EAFD00B02251 /* ViewModel */,
+				2B8E3A8028664AC1000ED715 /* Services */,
 				2BA240892861EB0400B02251 /* Protocols */,
 				2BA24071286114DD00B02251 /* Main.storyboard */,
 				2BA240832861E9C900B02251 /* Model */,
@@ -226,6 +237,7 @@
 				2BA240802861165000B02251 /* TableViewController.swift in Sources */,
 				2BA2406E286114DD00B02251 /* SceneDelegate.swift in Sources */,
 				2BA2408F2861F2D400B02251 /* TableViewCellViewModel.swift in Sources */,
+				2B8E3A8228664C37000ED715 /* NetworkManager.swift in Sources */,
 				2BA2409828631CC300B02251 /* TableViewCell.swift in Sources */,
 				2BA240952862777E00B02251 /* DetailViewModel.swift in Sources */,
 				2BA240872861EA8300B02251 /* TableViewModelType.swift in Sources */,

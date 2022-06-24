@@ -62,10 +62,12 @@
                     </tableView>
                     <navigationItem key="navigationItem" id="5UV-F7-AhC"/>
                     <connections>
+                        <outlet property="networkManager" destination="Www-Hl-41V" id="KuL-rg-XnD"/>
                         <segue destination="AOx-oy-Sw8" kind="show" identifier="detailSegue" id="kXn-Bt-1N1"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xdr-YM-tIw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <customObject id="Www-Hl-41V" customClass="NetworkManager" customModule="MVVM_App" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="602.89855072463774" y="203.57142857142856"/>
         </scene>
@@ -116,7 +118,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Mu-RB-Zco" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-307.24637681159425" y="203.57142857142856"/>
+            <point key="canvasLocation" x="-172" y="204"/>
         </scene>
     </scenes>
     <resources>
